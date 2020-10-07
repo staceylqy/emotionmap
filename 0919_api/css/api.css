@@ -1,0 +1,218 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    
+    background-size: 100% 100%;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin:0px auto;
+}
+
+.background_title{
+    color:#213e3b;
+    font-weight: bold;
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top:40px;
+    font:Source Code Pro;
+    margin-bottom:0px;
+}
+
+.intro{
+    background-color: #557571;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    margin-top: 5px;
+    text-align: center;
+    padding:0.5px 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#search{
+    /* margin-left: 30%;
+    margin-right: auto; */
+    margin-bottom: 20px;
+}
+
+#search p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom:5px;
+    color: #213e3b;
+}
+
+#search span{
+    color:#0278ae;
+}
+
+#searchInput{   
+    margin-left: 30%;
+    margin-right: auto;
+    width:600px;
+    height:30px;
+}
+
+#shareInput{
+    width:450px;
+    height:30px;
+}
+
+#map{
+    height:500px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.infobox{
+    width:80%;
+    display: flex;
+    justify-content: center;
+    margin:30px auto 50px auto;
+}
+
+.info1{
+    width: 700px;
+    float: left;
+    text-align: left;
+    
+}
+.info2{
+    width: 600px;
+    float: left;
+    margin-top:15px;
+}
+
+.loc{
+    margin-bottom:20px;
+    font-size: 13px;
+}
+
+.share{
+    display: inline-block;
+    cursor: pointer; /* カーソルを指に */
+    padding: .7em 1em; /* 文字まわりの余白 */
+    line-height: 1.4; /* 行間 */
+    background: #edc988; /* 背景色 */
+    border:none;
+    color: #FFF; /* 文字色 */
+    font-size: 0.95em; /* フォントサイズ */
+    border-radius: 0.5em; /* 角の丸み */
+    transition: 0.2s; /* ホバーをなめらかに */
+    position: relative;
+    top:50px;
+    left:-290px;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.share hover{
+    box-shadow: 0 8px 10px -2px rgba(0, 0, 0, 0.2); 
+}
+
+.result{
+    font-size:15px;
+    text-align:center;
+    color:white;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.resultbox1{
+    background-color:#213e3b;
+    width:180px;
+    height:25px;
+    
+}
+
+.resultbox2{
+    background-color:#213e3b;
+    width:240px;
+    height:25px;
+    
+}
+
+.geo-data{
+    border:2px solid black;
+}
+
+.infotitle{
+    font-size:25px;
+}
+
+
+.emoji{
+    display: flex;
+    justify-content: left;
+    /* margin-left:30px; */
+}
+
+.imgs{
+    padding: 0px 35px;
+
+}
+
+.p1{    
+    cursor: pointer;
+}
+
+.p2{    
+    cursor: pointer;
+}
+
+.p3{    
+    cursor: pointer;
+}
+
+ /* Output */
+ #output{
+    height: 300px;
+    width:100%;
+    margin:20px auto;
+    overflow:auto;
+    border:2px solid black;
+    /* background-color: #edcfa9; */
+    font-size: 15px;
+  }  
+
+  .place{
+      color:#7ea04d;
+      font-size:16px;
+      margin-bottom: 0px;
+  }
+
+  .img{
+      margin-left: 10px;
+
+  }
+
+  .text{
+    margin-left: 3px;
+
+  }
+  #box{
+    /* border: 1px solid black;  */
+    background-color:#faf3dd;
+    /* display: inline-block; */
+    width: 250px; 
+    height:auto; 
+    border-radius: 10px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:3px;
+    padding-bottom: 3px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
